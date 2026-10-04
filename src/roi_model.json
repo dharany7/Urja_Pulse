@@ -1,0 +1,86 @@
+{
+  "label": "Illustrative model, not a validated result. Savings figures are targets based on stated assumptions.",
+  "assumptions": {
+    "machine_kw": 2,
+    "hours_per_day": 8,
+    "days_per_month": 26,
+    "tariff_inr_per_kwh": 8,
+    "avoidable_waste_target_pct": 8,
+    "device_cost_inr": 1500
+  },
+  "base_case": {
+    "monthly_kwh": 416,
+    "monthly_cost_inr": 3328,
+    "avoidable_waste_pct": 8.0,
+    "monthly_saving_inr": 266,
+    "annual_saving_inr": 3195,
+    "payback_months": 5.6
+  },
+  "waste_sensitivity": [
+    {
+      "waste_pct": 5,
+      "monthly_kwh": 416,
+      "monthly_cost_inr": 3328,
+      "avoidable_waste_pct": 5.0,
+      "monthly_saving_inr": 166,
+      "annual_saving_inr": 1997,
+      "payback_months": 9.0
+    },
+    {
+      "waste_pct": 8,
+      "monthly_kwh": 416,
+      "monthly_cost_inr": 3328,
+      "avoidable_waste_pct": 8.0,
+      "monthly_saving_inr": 266,
+      "annual_saving_inr": 3195,
+      "payback_months": 5.6
+    },
+    {
+      "waste_pct": 10,
+      "monthly_kwh": 416,
+      "monthly_cost_inr": 3328,
+      "avoidable_waste_pct": 10.0,
+      "monthly_saving_inr": 333,
+      "annual_saving_inr": 3994,
+      "payback_months": 4.5
+    },
+    {
+      "waste_pct": 12,
+      "monthly_kwh": 416,
+      "monthly_cost_inr": 3328,
+      "avoidable_waste_pct": 12.0,
+      "monthly_saving_inr": 399,
+      "annual_saving_inr": 4792,
+      "payback_months": 3.8
+    }
+  ],
+  "tariff_sensitivity": [
+    {
+      "tariff": 6,
+      "monthly_kwh": 416,
+      "monthly_cost_inr": 2496,
+      "avoidable_waste_pct": 8.0,
+      "monthly_saving_inr": 200,
+      "annual_saving_inr": 2396,
+      "payback_months": 7.5
+    },
+    {
+      "tariff": 8,
+      "monthly_kwh": 416,
+      "monthly_cost_inr": 3328,
+      "avoidable_waste_pct": 8.0,
+      "monthly_saving_inr": 266,
+      "annual_saving_inr": 3195,
+      "payback_months": 5.6
+    },
+    {
+      "tariff": 10,
+      "monthly_kwh": 416,
+      "monthly_cost_inr": 4160,
+      "avoidable_waste_pct": 8.0,
+      "monthly_saving_inr": 333,
+      "annual_saving_inr": 3994,
+      "payback_months": 4.5
+    }
+  ]
+}
